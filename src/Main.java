@@ -7,7 +7,7 @@ public class Main {
         //Nicolas Gil Ruiz
     }
 
-    public static String veredicto (String valor1, String valor2){
+    private static String veredicto (String valor1, String valor2){
             if (valor1.equals(valor2)) {
                 return ("Estudias 1 hora por modulo");
             } else if (Integer.valueOf(valor1) < Integer.valueOf(valor2)) {
