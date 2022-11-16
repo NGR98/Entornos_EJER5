@@ -4,6 +4,7 @@ public class Main {
 
         System.out.println("Estudiante: " + args[0]);
         System.out.println(veredicto(args[1], args[2]));
+        //Nicolas Gil Ruiz
     }
 
     public static String veredicto (String valor1, String valor2){
